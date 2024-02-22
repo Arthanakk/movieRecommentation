@@ -1,0 +1,24 @@
+<style>
+body{
+          background-color:black;
+          color:white;
+            }
+ h1{
+            text-align:center;
+
+            }
+        .row{
+            display:flex;
+            justify-content:center;
+            }
+
+</style>
+<h1>Update Movie {{movie.name}}</h1>
+<div class="row">
+ <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit">
+
+</form>
+</div>

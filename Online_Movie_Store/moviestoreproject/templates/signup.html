@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+body{
+          background-color:black;
+          color:white;
+            }
+ h1{
+            text-align:center;
+
+            }
+        .row{
+            display:flex;
+            justify-content:center;
+            }
+
+</style>
+<h1>Registration From</h1>
+<div class="row">
+
+
+<form action="register" method="post" >
+    {% csrf_token %}
+    <table >
+        <tr>
+            <td> <label>Username</label></td>
+            <td> <input type="text" name="username" placeholder="Enter UserName"><br></td>
+        </tr>
+         <tr>
+            <td> <label>First_name</label></td>
+            <td> <input type="text" name="First_name" placeholder="Enter firstName"><br></td>
+        </tr>
+         <tr>
+            <td> <label>Last_name</label></td>
+            <td> <input type="text" name="Last_name" placeholder="Enter lastName"><br></td>
+        </tr>
+
+
+        <tr>
+            <td><label>Email_ID</label></td>
+            <td><input type="email" name="emailid" placeholder="Enter email id"><br></td>
+        </tr>
+
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password" name="password" placeholder="Enter Password"><br> </td>
+        </tr>
+        <tr>
+            <td><label>Confirm Password</label></td>
+            <td><input type="password" name="password1" placeholder="confirm Password"><br></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center;"> <button style="background-color:darkblue;color:white;">Submit</button></td>
+        </tr>
+
+ </table>
+</form>
+    </div>
+
+ <div style="text-align:center">
+     {% for msg in messages %}
+            <h4>{{msg}}</h4>
+     {% endfor %}
+</div>
+
+
+</body>
+</html>

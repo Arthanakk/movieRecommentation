@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+h1{
+            text-align:center;
+
+            }
+        .row{
+            display:flex;
+            justify-content:center;
+            }
+
+
+
+</style>
+<body style="background-color:black; color:white;">
+ <h1>Add New Movie</h1>
+ <div class="row">
+      <form method="post" enctype="multipart/form-data" action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+  </form>
+
+ </div>
+
+</body>
+</html>
