@@ -24,12 +24,12 @@ Setup Instructions:
    python manage.py createsuperuser
 7. Run the Development Server
     Run the Development Server
-## Website Demo Images
-#### Home Page
+# Website Demo Images
+## Home Page
 ![Screenshot (278)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/26540e78-f6a3-4e78-8b6b-1134faecc1a9)
-#### Login Page
+## Login Page
 ![Screenshot (280)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/faff3274-8516-41a6-aad6-a08d91348580)
-![Screenshot (281)](https://github.com/Art![Screenshot (282)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/04c340f9-0c51-422f-994e-bba5a182d90d)
-hanakk/movieRecommentation/assets/98205275/f8a9d0ff-7af8-4db3-ba17-a072a5a0e2ea)
+## Detail Page
 ![Screenshot (283)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/6473588e-1662-41bf-8e91-d10e3afcdfac)
+## Edit Page
 ![Screenshot (285)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/031162d0-1376-404f-8c71-2c46592974aa)
