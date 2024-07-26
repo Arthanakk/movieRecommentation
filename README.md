@@ -24,6 +24,7 @@ Setup Instructions:
    python manage.py createsuperuser
 7. Run the Development Server
     Run the Development Server
+## Website Demo Images
 ![Screenshot (278)](https://github.com/Arthanakk/movieRecommentation/assets/98205275/26540e78-f6a3-4e78-8b6b-1134faecc1a9)
 ![Screenshot (279)](https://github.com/Arthanak![Uploading Screenshot (284).png…]()
 k/movieRecommentation/assets/98205275/e0c91e99-e843-47d8-8c65-2dddf2a85282)
